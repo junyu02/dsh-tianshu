@@ -182,12 +182,12 @@ node --check lib/index.js
 - 官方 `dsh-host-directory-picker-native` 的 readUtf16 只查 UTF-16LE 码元低字节，含 U+XX00
   字符（开/一/言/Ā/🀀 等）的文件夹路径在选目录时被截断 → 创建工作区异常。非我们插件问题。
 - 修复与回归测试以 patch 存档：`02_process/upstream/utf16-picker-fix.patch`；官方 Discussions
-  #580 已接单（tianyicui「我们修复一下」），我们的补证评论已发（junyu-02）。
+  #580 已接单（tianyicui「我们修复一下」），我们的补证评论已发（junyu02）。
 - 待办：官方修 master 后核验对应 npm 版本是否含修复，随后可清理 patch 存档。
 
 ## 安装 / 重启
 
 - 注册：`dsh plugin --profile web add "link:<repo>/01_content"`（写 ~/.dsh，需用户授权）。
-- 发布版安装（给用户）：`dsh plugin --profile web add "https://github.com/junyu-02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"`（依赖每个 Release 的固定名资产）。
+- 发布版安装（给用户）：`dsh plugin --profile web add "https://github.com/junyu02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"`（依赖每个 Release 的固定名资产）。
 - bundle 层只在启动时组合：改动后必须重启 dsh web 并刷新 GUI。
 

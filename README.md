@@ -57,13 +57,13 @@
    **A · one-liner (recommended)** — straight from the GitHub Release tarball, no Git needed:
 
    ```bash
-   dsh plugin --profile web add "https://github.com/junyu-02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
+   dsh plugin --profile web add "https://github.com/junyu02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
    ```
 
    **B · local clone (for hacking on the source)** — `link:` accepts a local absolute path only (no spaces in the path):
 
    ```bash
-   git clone https://github.com/junyu-02/dsh-tianshu.git
+   git clone https://github.com/junyu02/dsh-tianshu.git
    dsh plugin --profile web add "link:<absolute path of the cloned dsh-tianshu directory>/01_content"
    # e.g. cloned into D:\tools → dsh plugin --profile web add "link:D:/tools/dsh-tianshu/01_content"
    ```
@@ -113,7 +113,7 @@ Don't panic: your data is safe — projects, bindings and layouts live in the br
 - Or simply re-run the install command (always installs the latest), then restart dsh web and refresh:
 
   ```bash
-  dsh plugin --profile web add "https://github.com/junyu-02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
+  dsh plugin --profile web add "https://github.com/junyu02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
   ```
 
 **Case B: Harness itself is down** (service fails to start / "Failed to load plugins")
@@ -151,5 +151,5 @@ MIT
 
 ## Related
 
-- [dsh-reminder](https://github.com/junyu-02/dsh-reminder) — cross-window completion & approval notifications
-- [dsh-usage](https://github.com/junyu-02/dsh-usage) — persistent balance/usage dock
+- [dsh-reminder](https://github.com/junyu02/dsh-reminder) — cross-window completion & approval notifications
+- [dsh-usage](https://github.com/junyu02/dsh-usage) — persistent balance/usage dock

@@ -158,12 +158,12 @@
 ## 补记（checkpoint + GitHub 推送）
 
 - 用户确认效果稳定，执行 checkpoint：dsh-tianshu 建 git 仓库（branch main），
-  本地身份 junyu 02，首次提交 d58cbc5（20 文件；
+  本地身份 俊宇 02，首次提交 d58cbc5（20 文件；
   node_modules/lib/03_local/日志按根 .gitignore 排除）；README「当前状态」段同步为 v2。
-- 推送到 GitHub 私有仓库 https://github.com/junyu-02/dsh-tianshu：
+- 推送到 GitHub 私有仓库 https://github.com/junyu02/dsh-tianshu：
   安装 gh CLI（winget，v2.97.0）；设备授权流程首次因网络超时失败——根因为系统代理
   （127.0.0.1:7890）只作用于 WinINET，gh CLI 需显式 HTTPS_PROXY 环境变量；
-  带上代理重试成功，账号为 junyu-02，创建私有仓库并推送 main=d58cbc5，已验证同步。
+  带上代理重试成功，账号为 junyu02，创建私有仓库并推送 main=d58cbc5，已验证同步。
 - 遗留：lib/ 未入库（clone 后需 npm install && npm run build）；
   01_content 内缺 README.md/LICENSE（开源独立发布前补）；版本号仍 0.1.0（开源前升 0.2.0）。
 

@@ -57,13 +57,13 @@
    **A · 一行命令（推荐）** —— 直接安装 GitHub Release 的安装包，无需 Git：
 
    ```bash
-   dsh plugin --profile web add "https://github.com/junyu-02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
+   dsh plugin --profile web add "https://github.com/junyu02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
    ```
 
    **B · 本地克隆（想改源码用）** —— `link:` 只接受本地绝对路径（路径不要带空格）：
 
    ```bash
-   git clone https://github.com/junyu-02/dsh-tianshu.git
+   git clone https://github.com/junyu02/dsh-tianshu.git
    dsh plugin --profile web add "link:<克隆出来的 dsh-tianshu 仓库目录的绝对路径>/01_content"
    # 例：克隆到 D:\tools 后 → dsh plugin --profile web add "link:D:/tools/dsh-tianshu/01_content"
    ```
@@ -113,7 +113,7 @@ node --check lib/index.js
 - 或直接重跑安装命令（永远装最新版），装完重启 dsh web 并刷新：
 
   ```bash
-  dsh plugin --profile web add "https://github.com/junyu-02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
+  dsh plugin --profile web add "https://github.com/junyu02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
   ```
 
 **情况 B：Harness 本身挂了**（服务起不来 / 报 Failed to load plugins）
@@ -151,5 +151,5 @@ MIT
 
 ## 相关项目
 
-- [dsh-reminder](https://github.com/junyu-02/dsh-reminder) — 跨窗口的任务完成与审批提醒
-- [dsh-usage](https://github.com/junyu-02/dsh-usage) — 常驻的余额/用量面板
+- [dsh-reminder](https://github.com/junyu02/dsh-reminder) — 跨窗口的任务完成与审批提醒
+- [dsh-usage](https://github.com/junyu02/dsh-usage) — 常驻的余额/用量面板

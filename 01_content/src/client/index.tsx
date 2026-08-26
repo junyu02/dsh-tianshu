@@ -23,8 +23,8 @@ type DockMode = 'footer' | 'float'
 // ── 更新检查（客户端直连 GitHub Releases API，只读 GET；失败静默）──
 declare const __WT_VERSION__: string
 const LOCAL_VERSION = typeof __WT_VERSION__ === 'undefined' ? 'dev' : __WT_VERSION__
-const UPDATE_REPO = 'junyu-02/dsh-tianshu'
-const UPGRADE_CMD = 'dsh plugin --profile web add "https://github.com/junyu-02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"'
+const UPDATE_REPO = 'junyu02/dsh-tianshu'
+const UPGRADE_CMD = 'dsh plugin --profile web add "https://github.com/junyu02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"'
 const UPGRADE_AI = '帮我升级 dsh-tianshu：执行 ' + UPGRADE_CMD + '，完成后提醒我重启 dsh web 并刷新页面'
 // 更新提示图标（手绘 SVG，避免 emoji 跨平台渲染差异）
 const ICON_SYNC = (

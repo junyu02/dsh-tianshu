@@ -21,11 +21,11 @@
 
 方式 A（推荐，无需 Git）——直接安装 GitHub Release 的安装包：
 
-    dsh plugin --profile web add "https://github.com/junyu-02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
+    dsh plugin --profile web add "https://github.com/junyu02/dsh-tianshu/releases/latest/download/dsh-tianshu.tgz"
 
 方式 B（想改源码用）——克隆仓库后用本地路径注册（`link:` 只接受本地路径，不要带空格）：
 
-    git clone https://github.com/junyu-02/dsh-tianshu.git
+    git clone https://github.com/junyu02/dsh-tianshu.git
     dsh plugin --profile web add "link:<克隆出来的 dsh-tianshu 仓库目录的绝对路径>/01_content"
 
 两种方式 `add` 都会把 `dsh-tianshu` 注册进 profile 的 bundle 列表（写入 `~/.dsh`），装完重启 dsh web、刷新界面生效。
@@ -44,9 +44,9 @@
 
 ## 相关文档
 
-- 项目规则：https://github.com/junyu-02/dsh-tianshu/blob/main/AGENTS.md
-- 需求与协议：https://github.com/junyu-02/dsh-tianshu/blob/main/02_process/PRD.md
-- 工作日志：https://github.com/junyu-02/dsh-tianshu/tree/main/02_process/worklogs
+- 项目规则：https://github.com/junyu02/dsh-tianshu/blob/main/AGENTS.md
+- 需求与协议：https://github.com/junyu02/dsh-tianshu/blob/main/02_process/PRD.md
+- 工作日志：https://github.com/junyu02/dsh-tianshu/tree/main/02_process/worklogs
 
 ## License
 
